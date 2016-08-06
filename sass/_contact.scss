@@ -1,0 +1,60 @@
+                #location {
+                    font-family: 'Karla', sans-serif;
+                    h2 {
+                        font-size: 30px;
+                        color: #23282f;
+                        font-weight: bold;
+                    }
+                    h5 {
+                        font-size: 18px;
+                        color: #23282f;
+                    }
+                    .divImage {
+                        width: 100%;
+                        min-height: 417px;
+                        background-color: #8d8d8d;
+                    }
+                    .circle {
+                        width: 63px;
+                        min-height: 63px;
+                        border-radius: 100%;
+                        border: 2px solid #29c2e1;
+                        margin-bottom: 25px;
+                        padding-top: 13px;
+                    }
+                    .height {
+                        m9n-height: 300px;
+                        border-bottom: 1px solid $mainColor;
+                    }
+                    p {
+                        font-size: 16px;
+                        color: #23282f;
+                    }
+                    .col-md-7 {
+                        padding: 75px 0px 0px 0px;
+                    }
+                    input {
+                        min-height: 48px;
+                        background-color: #e3eef0;
+                        border: none;
+                        color: #23282f;
+                        margin-bottom: 30px;
+                        border-radius: 0px;
+                    }
+                    .txtArea {
+                        min-height: 158px;
+                        background-color: #e3eef0;
+                        border: none;
+                        outline: none;
+                        resize: none;
+                    }
+                    .buton2 {
+                        border: none;
+                        width: 141px;
+                        padding: 10px;
+                        font-size: 14.5px;
+                    }
+                    h3 {
+                        padding-bottom: 20px;
+                    }
+                }

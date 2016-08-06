@@ -1,0 +1,151 @@
+#news {
+    font-family: 'Karla', sans-serif;
+    h1 {
+        font-size: 30px;
+        color: #23282f;
+        font-weight: 700;
+        font-weight: bold;
+    }
+    h5 {
+        font-size: 18px;
+        color: #23282f;
+    }
+    .mainDiv {
+        background-color: #e5eef0;
+        min-height: 374px;
+        display: -webkit-box;
+    }
+    .newsDiv {
+        background-color: #8d8d8d;
+        min-height: 374px;
+        display: -webkit-box;
+    }
+    .secondColor {
+        background-color: #8d8d8d;
+        min-height: 374px;
+        background-color: #e5eef0;
+        display: -webkit-box;
+        font-family: 'Karla', sans-serif;
+    }
+    .secondColor2 {
+        background-color: #8d8d8d;
+        min-height: 374px;
+        background-color: #e5eef0;
+        display: -webkit-box;
+        font-family: 'Karla', sans-serif;
+    }
+    .fullWidth {
+        width: 100%;
+        height: 100%;
+        padding: 27px 42px 20px 42px;
+        h3 {
+            color: #23282f;
+            padding-bottom: 19px;
+        }
+        h4 {
+            font-size: 20px;
+            font-weight: bold;
+            padding-bottom: 13px;
+        }
+        p {
+            font-size: 14px;
+            color: #54595f;
+            padding-bottom: 30px;
+        }
+        .newButton {
+            width: 139px;
+            height: 38px;
+            border: none;
+            margin: 0px;
+        }
+    }
+    .secondColor:before {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        margin-left: 39%;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 30px solid #e5eef0;
+        z-index: 1;
+    }
+    .newsDiv:before {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        margin-left: 150px;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 30px solid #e5eef0;
+        z-index: 1;
+    }
+}
+
+//bura news Detail hissesidir 
+#newsDetail {
+    font-family: 'Karla', sans-serif;
+    h1 {
+        font-size: 30px;
+        color: #23282f;
+        font-weight: 700;
+        font-weight: bold;
+    }
+    h5 {
+        font-size: 18px;
+        color: #23282f;
+    }
+    .imgDiv {
+        width: 100%;
+        min-height: 428px;
+        background-color: #8d8d8d;
+    }
+    .imgDiv2 {
+        width: 100%;
+        min-height: 428px;
+        background-color: $mainColor;
+    }
+    .imgDiv:after {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        margin-left: 47%;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 30px solid #8d8d8d;
+        z-index: 1;
+    }
+    h3 {
+        color: #23282f;
+        padding-bottom: 19px;
+    }
+    h4 {
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 13px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #54595f;
+        padding-bottom: 30px;
+    }
+    .full {
+        width: 100%;
+        min-height: 100%;
+        padding: 63px 10px 10px 10px;
+    }
+    .buton2 {
+        width: 139px;
+        padding: 10px;
+        border: none;
+    }
+    .vertical {
+        height: 51px;
+    }
+}

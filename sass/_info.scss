@@ -1,0 +1,20 @@
+#info {
+    background-color: $mainColor;
+    min-height: 50px;
+    font-family: 'Karla', sans-serif;
+    color: #93a1a7;
+    min-height: 50px;
+    font-size: 13px;
+    padding-top: 15px;
+    p {
+        display: inline-block;
+        letter-spacing: 1px;
+    }
+    i {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    .col-md-2 {
+        padding: 0;
+    }
+}

@@ -1,0 +1,598 @@
+                    #content {
+                        min-height: 655px;
+                        padding-top: 75px;
+                        font-family: 'Karla', sans-serif;
+                        color: #93a1a7;
+                        .vartical {
+                            height: 6px;
+                        }
+                        .vartical2 {
+                            height: 14px;
+                        }
+                        h5 {
+                            line-height: 20px;
+                        }
+                        .row {
+                            h2 {
+                                font-size: 30px;
+                                font-weight: bold;
+                                color: #23282f;
+                                font-weight: 700;
+                                padding: 0;
+                            }
+                            P {
+                                font-size: 18px;
+                                color: #54595f;
+                                line-height: 24px;
+                            }
+                            & p:last-child {
+                                font-size: 14px;
+                                padding: 15px 0px 40px 0px;
+                                line-height: 24px;
+                            }
+                        }
+                        .media-body {
+                            h3 {
+                                font-size: 20px;
+                                color: #23282f;
+                            }
+                            h5 {
+                                font-size: 14px;
+                                line-height: 24px;
+                                color: #54595f;
+                            }
+                        }
+                        .media-left {
+                            padding-right: 30px;
+                        }
+                    }
+                    
+                    .buton {
+                        background-color: $blue;
+                        color: white;
+                        border-radius: 20px;
+                        width: 171px;
+                        margin-top: 22px;
+                        margin-left: 55px;
+                    }
+                    
+                    .imgHeight {
+                        height: 301px;
+                        background-color: #8d8d8d;
+                        overflow: hidden;
+                        object-fit: cover;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            transition: 0.3s;
+                        }
+                        img:hover {
+                            transform: scale(1.05, 1.05);
+                        }
+                    }
+                    
+                    .smallpict {
+                        width: 67px;
+                        height: 67px;
+                        background-color: #f7941d;
+                        padding-top: 8px;
+                        i {
+                            color: white;
+                        }
+                    }
+                    
+                    .small2 {
+                        @extend .smallpict;
+                        background-color: #e5eef0;
+                        padding-left: 18px;
+                        position: relative;
+                    }
+                    
+                    .paddingTop {
+                        padding-top: 25px;
+                        padding-left: 9px;
+                    }
+                    
+                    #slide2 {
+                        min-height: 310px;
+                        background-color: #8d8d8d;
+                        padding: 123px;
+                        font-family: 'Karla', sans-serif;
+                        h1 {
+                            font-size: 48px;
+                            color: #ffffff;
+                            font-weight: 700;
+                            font-weight: bold;
+                        }
+                        p {
+                            font-size: 14px;
+                            color: #ffffff;
+                            font-weight: 400;
+                            font-weight: bold;
+                        }
+                    }
+                    
+                    #static {
+                        padding-top: 99px;
+                        min-height: 713px;
+                        font-family: 'Karla', sans-serif;
+                        h2 {
+                            font-size: 30px;
+                            font-weight: bold;
+                            color: #23282f;
+                        }
+                        h5 {
+                            font-size: 18px;
+                            color: #23282f;
+                        }
+                        p {
+                            font-size: 14px;
+                            color: #54595f;
+                            line-height: 24px;
+                        }
+                        .line {
+                            min-width: 100%;
+                            border-bottom: 1px solid $mainColor;
+                            padding: 40px 0px 40px 0px;
+                        }
+                        h4 {
+                            font-size: 60px;
+                            color: #23282f;
+                            margin-top: -10px;
+                        }
+                        .verticall {
+                            height: 70px;
+                        }
+                        .buton2 {
+                            width: 139px;
+                            border: none;
+                            padding: 5px;
+                        }
+                        .borderRight {
+                            border-left: 2px solid $blue;
+                            padding-left: 10px;
+                        }
+                        .color {
+                            background-color: #e5eef0;
+                        }
+                    }
+                    
+                    //bura clients olan hissedir
+                    #clients {
+                        font-family: 'Karla', sans-serif;
+                        color: #93a1a7;
+                        min-height: 467px;
+                        background-color: #e5eef0;
+                        padding-bottom: 10px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        h1 {
+                            font-size: 30px;
+                            color: black;
+                            font-weight: bold;
+                            padding-top: 75px;
+                        }
+                        .col-md-1 {
+                            padding: 0;
+                        }
+                        p {
+                            color: #54595f;
+                            font-size: 15px;
+                        }
+                        h6 {
+                            padding-bottom: 35px;
+                            left: 0;
+                        }
+                        i {
+                            color: black;
+                        }
+                        .circle {
+                            width: 132px;
+                            height: 132px;
+                            background-color: #f7941d;
+                            border-radius: 100%;
+                            objectiv-fit: cover;
+                            margin-top: 10px;
+                            margin-right: 10px;
+                        }
+                        .col-md-5 {
+                            padding-top: 150px;
+                        }
+                    }
+                    
+                    //features hissesi 
+                    #features {
+                        min-height: 650px;
+                        font-family: 'Karla', sans-serif;
+                        color: #93a1a7;
+                        h1 {
+                            font-size: 30px;
+                            color: black;
+                            font-weight: bold;
+                            padding-top: 75px;
+                            padding-bottom: 0px;
+                        }
+                        .rel {
+                            position: relative;
+                            padding-left: 180px;
+                        }
+                        img1 {
+                            float: right;
+                        }
+                        .img2 {
+                            position: absolute;
+                            right: 68px;
+                            bottom: 0;
+                        }
+                        h5 {
+                            color: #54595f;
+                            font-size: 15px;
+                            line-height: 24px;
+                        }
+                        p {
+                            padding-bottom: 40px;
+                        }
+                        button {
+                            @extend .buton;
+                            margin-top: 40px;
+                            margin-left: 11px;
+                        }
+                        .media-left {
+                            padding-right: 30px;
+                        }
+                        .imgNew {
+                            position: absolute;
+                            padding-left: 0px;
+                            padding-top: 6px;
+                            padding-right: 15px;
+                        }
+                    }
+                    
+                    .red {
+                        height: 200px;
+                        border: 1px solid black;
+                    }
+                    
+                    .verticalSpacer {
+                        height: 16px;
+                    }
+                    
+                    //bura qiymetler olan hissedir 
+                    #price {
+                        min-height: 724px;
+                        font-family: 'Karla', sans-serif;
+                        color: #93a1a7;
+                        padding: 10px;
+                        .col-md-3 {
+                            padding-left: 22px;
+                        }
+                        h1 {
+                            font-size: 30px;
+                            color: #23282f;
+                            padding-top: 78px;
+                            font-weight: 700;
+                            margin: 0;
+                        }
+                        h3 {
+                            color: #23282f;
+                            font-size: 20px;
+                            font-weight: 700;
+                            margin-top: 37px;
+                            margin-bottom: 11px;
+                        }
+                        hr {
+                            padding-bottom: 17px;
+                        }
+                        p {
+                            font-size: 15px;
+                            color: #65686e;
+                            margin-bottom: 42px;
+                            line-height: 35px;
+                        }
+                        button {
+                            @extend .buton;
+                            width: 138px;
+                            margin-top: 45px;
+                            margin-left: 11px;
+                        }
+                        span {
+                            color: #f7941d;
+                        }
+                        .line1 {
+                            width: 100%;
+                            height: 1px;
+                            background-color: $mainColor;
+                            padding-left: 75px;
+                            margin-bottom: 16px;
+                        }
+                        .line2 {
+                            width: 20px;
+                            height: 1px;
+                            background-color: $orange;
+                            padding-left: 30px;
+                        }
+                    }
+                    
+                    .panel {
+                        width: 100%;
+                        min-height: 420px;
+                        border: 1px solid $mainColor;
+                        margin-right: 5px;
+                        border-radius: 0px;
+                        text-align: center;
+                        position: relative;
+                        p:nth-child(4) {
+                            line-height: 36px;
+                            margin-top: 50px;
+                            font-size: 10px;
+                        }
+                        img {
+                            position: absolute;
+                            left: 0px;
+                        }
+                    }
+                    
+                    .pricePar {
+                        line-height: 36px;
+                        margin-top: 50px;
+                        font-size: 10px;
+                    }
+                    
+                    .panel:hover {
+                        box-shadow: 10px 10px 50px #888888;
+                        blur-radius: 20px;
+                    }
+                    
+                    //team hissesidir bura 
+                    #team {
+                        min-height: 690px;
+                        background-color: #e5eef0;
+                        font-family: 'Karla', sans-serif;
+                        h1 {
+                            font-size: 30px;
+                            color: #23282f;
+                            font-weight: 700;
+                        }
+                        h3 {
+                            font-weight: 400;
+                        }
+                        .imgWidth {
+                            width: 100%;
+                            height: 270px;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        h5 {
+                            font-size: 14px;
+                            color: #23282f;
+                            font-weight: 400;
+                            font-weight: bold;
+                        }
+                        .caption {
+                            padding: 20px;
+                        }
+                        p {
+                            color: #f69b37;
+                            font-size: 13px;
+                            font-weight: bold;
+                        }
+                        i {
+                            color: #adbdc1;
+                            margin-right: 5px;
+                        }
+                        .thumbnail {
+                            padding: 0px;
+                            margin-right: 25px;
+                        }
+                    }
+                    
+                    .verticalSpac {
+                        height: 74px;
+                    }
+                    
+                    .verticalSpac2 {
+                        height: 20px;
+                    }
+                    
+                    //bura servis hissesidir
+                    #services {
+                        font-family: 'Karla', sans-serif;
+                        min-height: 320px;
+                        h1 {
+                            font-size: 30px;
+                            font-weight: 500;
+                            font-weight: bold;
+                            color: #23282f;
+                        }
+                        span {
+                            color: #f69b37;
+                        }
+                        .verticall {
+                            height: 70px;
+                        }
+                        p {
+                            font-size: 13px;
+                            color: #58686c;
+                            text-transform: uppercase;
+                        }
+                        button {
+                            @extend .buton;
+                            width: 141px;
+                            padding: 10px;
+                            margin-top: 50px;
+                            margin-top: 10px;
+                            margin-left: 0px;
+                        }
+                        & button:last-child {
+                            @extend .buton;
+                            background-color: $orange;
+                            width: 141px;
+                            padding: 10px;
+                            margin-top: 10px;
+                        }
+                    }
+                    
+                    //bura bblog hissesidir
+                    #blog {
+                        font-family: 'Karla', sans-serif;
+                        .imgDiv {
+                            width: 100%;
+                            height: 334px;
+                            background-color: #8d8d8d;
+                        }
+                        ul {
+                            list-style: square;
+                            list-style-image: url(images/Done.png);
+                            li {
+                                padding-bottom: 8px;
+                            }
+                        }
+                        .borderBottom {
+                            border-bottom: 1px solid $mainColor;
+                        }
+                        .smallCircle {
+                            width: 68px;
+                            height: 68px;
+                            border-radius: 50%;
+                            background-color: #8d8d8d;
+                        }
+                        .media {
+                            background-color: $mainColor;
+                            padding: 20px 15px 20px 15px;
+                        }
+                        .media-object {
+                            width: 122px;
+                            height: 122px;
+                            border-radius: 50%;
+                            background-color: #8d8d8d;
+                        }
+                        .media-left {
+                            padding-right: 44px;
+                        }
+                        .vartical {
+                            height: 90px;
+                        }
+                        .thumbnail {
+                            border: 0px solid;
+                            padding: 0px 47px 0px 0px;
+                        }
+                        h3 {
+                            font-weight: bold;
+                        }
+                        h4 {
+                            padding-left: 5px;
+                            font-weight: bold;
+                        }
+                        h5 {
+                            color: #23282f;
+                            font-weight: bold;
+                        }
+                        span {
+                            color: #f7941d;
+                        }
+                        .caption {
+                            padding: 0px 0px 40px 0px;
+                            border-bottom: 1px solid $mainColor;
+                            h6 {
+                                font-size: 15px;
+                                color: #23282f;
+                                padding-bottom: 30px;
+                            }
+                            .btn {
+                                border-radius: 17px;
+                                width: 141px;
+                                background-color: $blue;
+                                border: none;
+                            }
+                            p {
+                                padding-bottom: 60px;
+                            }
+                        }
+                        .col-md-12 {
+                            padding: 0;
+                        }
+                        .col-md-8 {
+                            padding: 0px;
+                        }
+                        .col-md-4 {
+                            padding: 0px;
+                        }
+                        .badge {
+                            background-color: white;
+                        }
+                        i {
+                            color: $gray;
+                        }
+                        .verrticl {
+                            height: 30px;
+                        }
+                        .verrticl2 {
+                            height: 20px;
+                        }
+                        li {
+                            border: none;
+                        }
+                        .list-group-item {
+                            padding: 10px 5px;
+                        }
+                        .smallDiv {
+                            width: 67px;
+                            height: 67px;
+                            background-color: #8d8d8d;
+                            margin-bottom: 28px;
+                        }
+                        .boton {
+                            width: 97px;
+                            height: 40px;
+                            padding: 5px;
+                            margin: 5px;
+                            background-color: #29c2e1;
+                            border: none;
+                            color: white;
+                        }
+                        .boton2 {
+                            @extend .boton;
+                            width: 160px;
+                        }
+                        .col-md-6 {
+                            padding: 0;
+                        }
+                        .pagination a {
+                            margin: 5px;
+                            padding: 10px 16px;
+                            border: none;
+                            background-color: #29c2e1;
+                        }
+                        .pagination a:hover {
+                            background-color: $orange;
+                        }
+                        input {
+                            min-height: 48px;
+                            background-color: #e3eef0;
+                            border: none;
+                            color: #23282f;
+                            margin-bottom: 30px;
+                            border-radius: 0px;
+                        }
+                        .txtArea {
+                            min-height: 158px;
+                            background-color: #e3eef0;
+                            border: none;
+                            outline: none;
+                            resize: none;
+                        }
+                        .buton2 {
+                            border: none;
+                            width: 141px;
+                            padding: 10px;
+                            font-size: 14.5px;
+                        }
+                        h3 {
+                            padding-bottom: 20px;
+                        }
+                        .paddingRight {
+                            padding-right: 25px;
+                        }
+                    }
